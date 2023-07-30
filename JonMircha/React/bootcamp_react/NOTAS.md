@@ -9,7 +9,7 @@
   05  Estado                                        19
   06  Renderizado Condicional                       09  ==> Renderizado de elementos
 # DIA VIENRES 28
-  **07:00-...**
+  **07:00-...23:00**
   07  Renderizado de Elementos                      23
   08  Eventos & Binding                             23
   09  Eventos & PropertyInit                        12
@@ -22,15 +22,19 @@
   16  Hook useEffect 1/2                            26    ScrollHooks.js
   17  Hook useEffect 2/2                            23    RelojHooks.js
   18  Peticiones Asincronas con Hooks               20    AjaxHooks.js        =>  CustomHooks
-  
-
-  
+# DIA SABADO 29  
+  **19:00-...**
+  19  Custom Hooks                                  30    HooksPersonalizados.js    => Pendiente (video#20)
+  20  Referencias                                   22    Referencias.js
+  21  Formularios                                   39    Formularios.js
+  22  Estilos CSS                                   26    
 
 `Se puede descargar la extension React Developers Tools para visualizar los componentes de la página`
 `Simple React Snippets es una extension para facilitar elaborar código con React`
 `React tras bambalinas tiene su archivo de configuracion webpack, `
 `Las Key van a los elmentos jsx`
 `Un componente se renderiza cuando le pasas propiedades o cuando se actualiza su estado`
+`No vasta con actualizar la página cuando se encuentra un error en uno de los archivos importados de React`
 
 # COMANDOS CREATE REACT APP
   **npm start** => Inicia el servidor de desarrollo y abre un navegador con la aplicacion, utiliza por defecto el puerto 3000
@@ -76,3 +80,12 @@
   Esta disponible desde la version 16, es una manera que nos va a permitir enganchar el estado y el ciclo de vida para conmponentes funcionales, ya que antiguamente estos componentes solo eran usados para imprimir propiedades; los hooks no hacen que una app sea mas rápida; tenemos los siguientes hooks `useState useEffect`y los avanzados `useContext useRef useReducer useCallback useMemo`, además de hooks personalizados
     useState => devuelve un arreglo con dos posiciones [valor, setValor], por cada valor que se tenga en el estado, se cree uno
     useEffect => nos permite representar el ciclo de vida de los componentes de clase (mount update y willunmount)
+  Podemos realizar nuestros propios hooks [https://es.legacy.reactjs.org/docs/hooks-custom.html] 
+
+# REFERENCIAS
+  Es la manera que nos permite React, controlar un elemento que ya ha sido cargado al DOM, se utilizan cuando se tenga que controlar enfoques, cuanso se selecciona texto, cuando se controla la reproduccion de audio y video, activar animaciones imperativas, integrar otra biblioteca del DOM..
+
+# FORMULARIOS
+  Hay dos tipos (controlados y no controlados)
+
+# ESTILOS CSS
